@@ -1,0 +1,109 @@
+body{ background: url("fon2.jpg") ;
+
+}
+main{margin: 0 auto;
+	width: 1200px;
+	height: 1600px;
+	
+}
+nav{display: flex;
+	height: 100px;
+	background-color: #402720;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: white; 
+	justify-content: space-between;
+	box-sizing: border-box;
+
+}
+.img_nav{
+	height: 100px;
+	width: 500px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.img_nav img{
+	height: 99px;
+}
+
+ .nav_menu{
+ 	width: 600px;
+ 	float: right;
+ 	height: 100px;
+ 	text-align: center;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+.nav_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav_menu li{
+	font-family: Times New Ro...;
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+li:hover{
+	background:#ff9933;
+	cursor: pointer;
+	color: #402720;
+}
+
+.misto{
+	font-family: Times New Ro...;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.misto img{
+	width: 1200px;
+}
+
+.foto_misto img{
+	width: 480px;
+}
+
+.foto_misto {
+	height: 500px;
+	width: 480px;
+	background-color: #402720;
+	float: left;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.text_misto {
+	height: 500px;
+	width: 680px;
+	background-color: #402720;
+	float: right;
+	margin: 10px;
+}
+.buttons div{
+	width: 1000px;
+	height: 30px;
+	float: left;
+	margin: 0 5px;
+
+}
+.buttons a{
+	display: block;
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+}
